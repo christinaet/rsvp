@@ -1,0 +1,268 @@
+<!doctype html>
+<!--[if lt IE 7]>
+<html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>
+<html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>
+<html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <title>Christina & Peter</title>
+    <meta name="description" content="We would like you to be part of it">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#ffffff">
+    <meta property="og:title" content="Christina & Peter">
+    <meta property="og:description" content="We would like you to be part of it">
+    <meta property="og:type" content="website">
+
+    <script>
+        // load css files from CDN if local node_modules fail
+        function loadCssFromCDN(css) {
+            // create new link tag
+            const link = document.createElement('link');
+            if (css === 'animate.css') {
+                link.href = 'https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css';
+            } else if (css === 'font-awesome.css') {
+                link.href = 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css';
+            }
+            link.rel = 'stylesheet';
+
+            // add link tag to head section
+            document.getElementsByTagName('head')[0].appendChild(link);
+        }
+
+        // load js files from CDN if local node_modules fail
+        function loadJsFromCDN(js) {
+            if (js === 'waypoints.js') {
+                document.write('<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"><\/script>');
+            } else if (js === 'jquery.js') {
+                document.write('<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"><\/script>');
+            }
+        }
+    </script>
+
+    <link rel="stylesheet" href="css/normalize.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.css">
+    <link rel="stylesheet" href="css/flexslider.css">
+    <link rel="stylesheet" href="css/styles.min.css">
+    <link rel="stylesheet" href="css/queries.css">
+    <link rel="stylesheet" href="node_modules/animate.css/animate.min.css" onerror="loadCssFromCDN('animate.css')">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" onerror="loadCssFromCDN('font-awesome.css')">
+    <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+</head>
+<body id="top">
+<!--[if lt IE 8]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade
+    your browser</a> to improve your experience.</p>
+<![endif]-->
+<section class="hero">
+    <section class="navigation">
+        <header>
+            <div class="header-content">
+                <div class="logo"><a href="#"><img src="img/logo.png" alt="Logo"></a></div>
+                <div class="header-nav">
+                    <nav>
+                        <ul class="primary-nav">
+                            <li><a href="#intro">Information</a></li>
+                            <li><a href="#events">Events</a></li>
+                        </ul>
+                        <ul class="member-actions">
+                            <li><a href="#map" class="login">Location</a></li>
+                            <li><a href="https://forms.gle/xjB9KxevwZVnUhsg6" class="btn-white btn-small">RSVP</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="navicon">
+                    <a class="nav-toggle" href="#"><span></span></a>
+                </div>
+            </div>
+        </header>
+    </section>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-md-offset-0">
+                <div class="hero-content text-center">
+                    <h1>Join us in the clouds</h1>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4 hidden-xs"></div>
+            <div class="col-sm-4 hidden-xs text-center"><a href="#rsvp"
+                                                           class="btn btn-accent btn-large rsvp-btn">RSVP</a></div>
+            <div class="col-sm-4 hidden-xs"></div>
+        </div>
+    </div>
+     <div class="down-arrow floating-arrow"><a href="#invitation"><i class="fa fa-angle-down"></i></a></div>
+</section>
+
+<section id="invitation" class="section-padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h3>Save the date</h3>
+                <p>The dates are June 15th and July (TBD) 2024, and we want you to be a part of it!</p>
+                <p>We don't have a registry or fund. If you insist (no obligations), <br/>you can give us a gift card that will count towards a tri-bike purchase.</p>
+                <img src="img/slack.jpg"
+                     style="max-width: 3%;"/><a href="https://forms.gle/xjB9KxevwZVnUhsg6" target="_blank" style="font-weight:bold"> faulty-algo-club</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="intro">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h3 class="header">Information</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3 hidden-sm hidden-xs"><img src="img/mia.jpg" class="wp1"></div>
+            <div class="col-md-6">
+                <p>We met at a bar whose name I can never remember in December 2019. So this wasn't what we planned, and there were no matching algorithms. </p>
+                <p>We struck up a conversation in an elevator and never looked back. Fast forward several years - we are getting married in the Rockies!</p>
+            </div>
+            <div class="col-md-3 hidden-sm hidden-xs"><img src="img/cambridge.jpg" class="wp2"></div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4 col-sm-push-2 col-xs-6 hidden-md hidden-lg"><img src="img/mia.jpg" class="wp8"></div>
+            <div class="col-sm-4 col-sm-push-2 col-xs-6 hidden-md hidden-lg"><img src="img/cambridge.jpg" class="wp9"></div>
+        </div>
+    </div>
+</section>
+
+<section class="events section-padding" id="events">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h3 class="header">Events</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 col-sm-12 col-xs-12 leftcol">
+                <div class="wp3">
+                    <p><strong>15th June 2024</strong></p>
+
+                    <h5>Ceremony <span class="time">1 - 3 PM mountain time</span></h5>
+                    <p><b>St. Catherine’s Chapel @ Camp St. Malo<br>
+                        10758 CO-7, Allenspark, CO 80510</b></p>
+                    <p>Please note that the Chapel on the Rock is a religious institution. No food, drink, alcohol or drugs are allowed on site. Party and booze are held separately - look to the right!</p>
+                    <p>Rehearsal is the day before at 2:30 pm. We will probably take everyone out to dinner after, and stay at one of the many cabins in Estes Park.</p>
+                    <p>The closest cities are Boulder, Denver, and Ft Collins. We are happy to recommend local places and activities over Slack. </p>
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-12 col-xs-12 rightcol">
+                <div class="wp4">
+                    <p><strong>July 2024</strong></p>
+
+                    <h5>Reception <span class="time">8PM eastern time - Closing</span></h5>
+                    <p><b>A bar in West Village, NY</b></p>
+                    <p>We are considering a beer garden or dive bar. An example is <a href="https://fultonhall.com/#aboutus_v8" target="_blank">Fulton Hall</a>. We will have more information in the spring.
+                    <p>There will be beer and hopefully homebrew!</p>
+                </div>
+            </div>
+        </div>
+        <div class="row section-padding">
+            <div class="col-md-4 col-md-offset-4 text-center">
+                <a class="btn btn-accent btn-small" data-toggle="modal" data-target="#dc-modal">
+                    <i class="fa fa-barcode"></i>&nbsp;&nbsp;Dress code
+                </a>
+            </div>
+        </div>
+        <!--<div class="row">
+            <div class="col-xs-12 section-border section-padding">
+            </div>
+        </div>-->
+    </div>
+
+    <div id="dc-modal" class="modal fade" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span>&times;</span>
+                    </button>
+                    <h3 class="text-center section-padding">Yes, dress codes</h3>
+                    <h5>Ceremony <span class="time">1:30 - 3:30 PM</span></h5>
+                    <p><strong>St. Catherine’s Chapel - Formal Attire</strong></p>
+                    <p>
+                        Please respect the solemnity of a Catholic ceremony. If the top is bare, consider a small jacket or a shawl. <br>
+                        It can be chilly in the mountains even in summer. Please check the weather beforehand and dress accordingly.
+                    </p>
+                    <h5>Reception <span class="time">8PM - Closing</span></h5>
+                    <p>
+                        <strong>Location TBD - Casual Attire</strong>
+                        <p>What you wear on a Wednesday night to a bar is great.</p>
+                    </p>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+</section>
+
+
+<section id="map" class="section-padding">
+    <div class="text-center">
+        <h3>How do I get there?</h3>
+        <p>Please note that Camp St Malo's elevation is around 8500ft or 2600m. Be mindful of the altitude, and enjoy the drive!</p>
+        <p align="center"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3045.3311953459697!2d-105.54131122354474!3d40.24617027146746!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876963597f95501d%3A0xb55d7938843cd2b8!2sCamp%20St.%20Malo!5e0!3m2!1sen!2sus!4v1702426243938!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+    </div>
+</section>
+
+<section class="rsvp text-center" id="rsvp">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3">
+                <h3>What are you waiting for?</h3>
+                <p>We would greatly appreciate it if you could RSVP before May 15th 2024</p>
+                    <a href="https://forms.gle/xjB9KxevwZVnUhsg6" target="_blank"
+                       class="btn btn-accent btn-large rsvp-btn">RSVP</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 text-center content">
+                <span class="to-top-wrapper"><a href="#top" class="to-top"><i class="fa fa-angle-up"></i></a></span>
+                <p>I'm a software engineer with no front end experience. <span class="fa fa-heart pulse2"></span> I developed this minimalistic site with love and for fun.</p>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="js/vendor/jquery-1.11.2.min.js" onerror="loadJsFromCDN('jquery.js')"></script>
+<script src="node_modules/waypoints/lib/jquery.waypoints.min.js" onerror="loadJsFromCDN('waypoints.js')"></script>
+<script src="js/jquery.fancybox.pack.js"></script>
+<script src="js/vendor/bootstrap.min.js"></script>
+<script src="js/jquery.flexslider-min.js"></script>
+<script src="js/jquery.mb.YTPlayer.min.js"></script>
+<script src="js/vendor/ouical.js"></script>
+<script src="js/scripts.min.js"></script>
+<script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBlPw3GQYI3faa_9mRE6plWuM7xNEmrwH0&callback=initMap"></script>
+<!-- Google Analytics -->
+<script>
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+    ga('create', 'UA-46465113-4', 'auto');
+    ga('send', 'pageview');
+</script>
+</body>
+</html>
